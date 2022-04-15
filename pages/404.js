@@ -1,9 +1,19 @@
+import { useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/router';
 
 const NotFound = () => {
+	const router = useRouter();
+
+	useEffect(() => {
+		setTimeout(() => {
+			router.push('/');
+		}, 3000);
+	}, []);
+
 	return (
 		<div className="text-center">
-			<h1 className="pb-5 font-semibold text-2xl">Ooops...</h1>
+			<h1 className="pb-5 font-semibold text-3xl">Ooops...</h1>
 			<h2 className="pb-5 font-semibold text-xl">That page cannot be found.</h2>
 			<p>
 				Return to the{' '}

@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import Meta from '../utilities/Meta';
 
 const NotFound = () => {
 	const router = useRouter();
@@ -13,6 +14,7 @@ const NotFound = () => {
 
 	return (
 		<div className="text-center">
+			<Meta title="404 Page Not Found | Mando List | Superior Software Solutions" />
 			<h1 className="pb-5 font-semibold text-3xl">Ooops...</h1>
 			<h2 className="pb-5 font-semibold text-xl">That page cannot be found.</h2>
 			<p>

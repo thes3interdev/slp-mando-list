@@ -1,14 +1,15 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const NavigationBar = () => {
 	return (
 		<nav className="mt-[10px] mx-auto mb-20 py-[10px] flex justify-between border-b border-slate-300">
 			<div className="mr-auto">
-				<h1>Mando List</h1>
+				<Image src="/logo.png" width={90} height={90} alt="Logo" />
 			</div>
-			<div className="space-x-3">
+			<div className="grid grid-cols-3 content-end justify-items-center">
 				<Link href="/">
-					<a>Home</a>
+					<a className="">Home</a>
 				</Link>
 				<Link href="/mandos">
 					<a>Mando Listing</a>

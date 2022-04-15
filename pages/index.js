@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import Meta from '../utilities/Meta';
 
 const Home = () => {
 	return (
 		<div>
+			<Meta title="Home | Mando Lists | Superior Software Solutions" />
 			<h1 className="pb-5 font-semibold text-2xl">Home</h1>
 			<div className="leading-relaxed">
 				<p>

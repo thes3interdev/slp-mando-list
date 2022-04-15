@@ -1,10 +1,11 @@
-name: Build and Deploy to Firebase
+name: Checkout and Deploy to Firebase Hosting
 on:
   push:
     branches: main
 
-  jobs:
-    name: Deploy to Firebase
+jobs:
+  deploy:
+    name: Checkout and deploy to firebase hosting
     runs-on: ubuntu-latest
 
     steps:

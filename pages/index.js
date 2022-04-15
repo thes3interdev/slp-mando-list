@@ -1,11 +1,8 @@
 import Link from 'next/link';
-import NavigationBar from '../components/NavigationBar';
-import NavigationFooter from '../components/NavigationFooter';
 
 const Home = () => {
 	return (
 		<div>
-			<NavigationBar />
 			<h1>Home</h1>
 			<p>
 				Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores qui tempora nam
@@ -20,7 +17,6 @@ const Home = () => {
 			<Link href="/mandos">
 				<a>See Mando Listing</a>
 			</Link>
-			<NavigationFooter />
 		</div>
 	);
 };

@@ -1,7 +1,7 @@
 const About = () => {
 	return (
 		<div>
-			<h1 className="pb-5 text-center font-semibold text-2xl">About</h1>
+			<h1 className="pb-5 font-semibold text-2xl">About</h1>
 			<div className="leading-relaxed">
 				<p>
 					Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non harum ea,

@@ -3,7 +3,7 @@ import NavigationFooter from '../components/NavigationFooter';
 
 const Layout = ({ children }) => {
 	return (
-		<div className="">
+		<div className="max-w-[960px] mx-auto">
 			<NavigationBar />
 			{children}
 			<NavigationFooter />

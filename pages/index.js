@@ -1,11 +1,17 @@
 const Home = () => {
 	return (
 		<div>
-			<div className="flex h-screen w-full items-center justify-center">
-				<h1 className="text-4xl font-medium text-indigo-500">
-					Hello? Next.js and Tailwind CSS have been correctly configured.
-				</h1>
-			</div>
+			<h1>Home</h1>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores qui tempora nam
+				exercitationem facere aspernatur eveniet ipsam nihil eos! Veritatis rerum
+				voluptatum ab. In fugiat maxime ut, iusto dolores laborum voluptates nemo.
+				Voluptate, dolores!
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, fugiat iusto impedit
+				aperiam, alias nobis beatae, est debitis animi cumque nam.
+			</p>
 		</div>
 	);
 };

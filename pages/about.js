@@ -2,7 +2,7 @@ import Meta from '../utilities/Meta';
 
 const About = () => {
 	return (
-		<div>
+		<div className="p-3">
 			<Meta title="About | Mando Lists | Superior Software Solutions" />
 			<h1 className="pb-5 font-semibold text-2xl">About</h1>
 			<div className="leading-relaxed">
